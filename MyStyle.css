@@ -1,0 +1,31 @@
+body {
+  background-image:url('img2.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+P{
+    margin-left: 10px;
+    font-size: large;
+}
+img{
+    padding-left: 300px ;
+}
+h2,header{
+    padding: 1px;
+    padding-left: 20px;
+    color:rgb(95, 4, 122);
+}
+nav,ul,li{
+    display: inline;
+    padding-left: 25px ;
+}
+footer{
+    text-align: center;
+    padding:2%;
+    background-color: skyblue;
+    color: blueviolet;
+}
+h1{
+    color:darkcyan;
+}

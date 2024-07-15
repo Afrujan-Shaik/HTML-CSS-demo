@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+            h1{margin-left:450px ;}
+            div{
+                margin-left: 450px;
+                font-size: large;
+            }
+            body{
+                    background-image:url('img7.jpg!bw700');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    padding-left: 10%;
+                }
+        </style>
+    </head>
+    <body>
+        <header>
+            <center><h1>Website</h1></center>
+        <h2>Welcome,To My Website of Student </h2>
+        <nav>
+            <a href="Home.html">Home</a>|
+            <a href="About.html">About</a>|
+            <a href="Contact.html">Contact</a>|
+            <a href="Registration.html">Registration</a>|
+            <a href="LoginPage.html">Login</a>
+            <h1>REGISTRATION FORM</h1>
+        </nav><br>
+        </header>
+        
+        <form action="Loginsuccess.html">
+            <div>
+                Username        : <input type="text" name="uname" placeholder="Create a username" ><br><br>
+                Password : <input type="text" name="pass" placeholder="Create a Password"><br><br>
+                Name            : <input type="text" name="nname"><br><br>
+                Date-of-Birth   : <input type="date" name="Bname"><br><br>
+                Age             : <input type="text" col="10" rows="2"><br><br>
+                Gender          : <br><input type="radio" name="male" value="m">Male
+                                  <br><input type="radio" name="female" value="f">Female
+                                  <br><input type="radio" name="others" value="o">Others<br><br>
+                Mobile No       :<input type="tel" name="personal" id="per1" pattern="[0-9]{10}"
+                                  title="The ten digits number"><br><br>
+                Email           : <input type="email" name="office" id="myofficeid"><br><br>
+                Branch          : <select name="Branch">
+                                    <option value="1">CSE</option>
+                                    <option value="2">ECE</option>
+                                    <option value="3">EEE</option>
+                                    <option value="4">Civil<option>
+                                    <option value="5">Mech</option>
+                                 </select><br><br>
+                Languages       :<br><input type="checkbox" name="Telugu">Telugu
+                                 <br><input type="checkbox" name="Hindi">Hindi
+                                <br> <input type="checkbox" name="English">English<br><br>
+                Address         :<br><textarea col="30" rows="5">Enter your permenant address</textarea>
+                <br><input type="submit">
+            </div>
+        </form>
+        <footer>
+            &copy; all rights of this website is reserved for me. 
+        </footer>
+    </body>
+</html>
